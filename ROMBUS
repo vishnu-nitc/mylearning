@@ -1,0 +1,22 @@
+print "Hello World!\n"
+n = 10
+a = 1
+while (n > 0):
+    for i in range(n):
+        print " ",
+    for i in range(a):
+        print ".",
+    print ""
+    n = n-1
+    a = a+2
+    
+a = a-4
+n = n+2
+while (n <= 10):
+    for i in range(n):
+        print " ",
+    for i in range(a):
+        print ".",
+    print ""
+    n = n+1
+    a = a-2
